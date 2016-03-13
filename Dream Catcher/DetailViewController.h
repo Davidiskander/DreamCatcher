@@ -10,4 +10,8 @@
 
 @interface DetailViewController : UIViewController
 
+@property NSString *titleString;
+@property NSString *descriptionString;
+
+
 @end

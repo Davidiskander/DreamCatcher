@@ -13,6 +13,7 @@
 		19F0C3BB1C949F520032E944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F0C3B91C949F520032E944 /* Main.storyboard */; };
 		19F0C3BD1C949F520032E944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F0C3BC1C949F520032E944 /* Assets.xcassets */; };
 		19F0C3C01C949F520032E944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F0C3BE1C949F520032E944 /* LaunchScreen.storyboard */; };
+		19F0C3C91C94D0A20032E944 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3C81C94D0A20032E944 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		19F0C3BC1C949F520032E944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F0C3BF1C949F520032E944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F0C3C11C949F520032E944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F0C3C71C94D0A20032E944 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		19F0C3C81C94D0A20032E944 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				19F0C3B41C949F520032E944 /* AppDelegate.m */,
 				19F0C3B61C949F520032E944 /* ViewController.h */,
 				19F0C3B71C949F520032E944 /* ViewController.m */,
+				19F0C3C71C94D0A20032E944 /* DetailViewController.h */,
+				19F0C3C81C94D0A20032E944 /* DetailViewController.m */,
 				19F0C3B91C949F520032E944 /* Main.storyboard */,
 				19F0C3BC1C949F520032E944 /* Assets.xcassets */,
 				19F0C3BE1C949F520032E944 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				19F0C3B81C949F520032E944 /* ViewController.m in Sources */,
 				19F0C3B51C949F520032E944 /* AppDelegate.m in Sources */,
 				19F0C3B21C949F520032E944 /* main.m in Sources */,
+				19F0C3C91C94D0A20032E944 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				19F0C3C61C949F520032E944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
